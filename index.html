@@ -28,5 +28,14 @@
     </head>
     <body>
         <button id="btn" class="button"></button>
+        <script>
+            const btn = document.getElementById('btn');
+            const body = document.body;
+            
+            btn.addEventListener('click', () => {
+                body.classList.toggle('zoomed-out');
+                alert("иди работай долбоеб 🤡"); // Простое уведомление
+            });
+        </script>
     </body>
 </html>
