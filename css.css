@@ -6,7 +6,7 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(104,155,133);
+    color: rgb(0, 0, 0);
 }
 
 .bots-buttons
@@ -18,7 +18,7 @@ body
     width: 300px;
     border: 0px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(104,155,133);
+    color: rgb(0, 0, 0);
     font-size: large;
 }
 .centerr
