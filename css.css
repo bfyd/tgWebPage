@@ -1,0 +1,36 @@
+body
+{
+    background-image: url("bgf.gif");
+    max-width: 100%;
+    height: auto; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(104,155,133);
+}
+
+.bots-buttons
+{
+    background-color: rgba(173,217,197, 0.74);
+    border-radius: 2rem;
+    margin: 10px 0;
+    height: 50px;
+    width: 300px;
+    border: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(104,155,133);
+    font-size: large;
+}
+.centerr
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.bots-buttons:hover
+{
+    height: 55px;
+    width: 310px;
+}
