@@ -1,41 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script src="https://telegram.org/js/telegram-web-app.js"></script>
-        <style>
-            body {
-                margin: 0;
-                padding: 0;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 100vh;
-                background: transparent;
-            }
-            #btn {
-                background: url('dollars.png') no-repeat center;
-                background-size: contain;
-                border: none;
-                width: 200px;  /* Подстройте под размер картинки */
-                height: 200px; /* Подстройте под размер картинки */
-                cursor: pointer;
-                padding: 0;
-            }
-            #btn:active {
-                transform: scale(0.95); /* Эффект нажатия */
-            }
-        </style>
+        <link rel="stylesheet" href="css.css">
+        <script src="script.js"></script>
+        <meta charset="UTF-8">
+        <title>my tasks</title>
+
     </head>
-    <body>
-        <button id="btn" class="button"></button>
-        <script>
-            const btn = document.getElementById('btn');
-            const body = document.body;
-            
-            btn.addEventListener('click', () => {
-                body.classList.toggle('zoomed-out');
-                alert("иди работай долбоеб 🤡"); // Простое уведомление
-            });
-        </script>
+    <body class ="background">
+        <div class="centerr">
+        <h1>Список ботов</h1>
+        <button class="bots-buttons">Бот репостер</button>
+        <button class="bots-buttons">Бот менеджер чатов</button>
+        <button class="bots-buttons">Бот для отложенных сообщений</button>
+        <button class="bots-buttons">Бот контентщик</button>
+        </div>
     </body>
 </html>
